@@ -1,13 +1,12 @@
 {
 	"name": "devcontainr_python3",
 	//"dockerFile": "Dockerfile",
-	"dockerComposeFile": "compose.yml",
+	"dockerComposeFile": "./compose.yaml",
 	"service": "python3",
 	"workspaceFolder": "/workspace",
 	"shutdownAction": "stopCompose",
 	"customizations": {
 		"vscode": {
-		  // 拡張機能リスト(拡張機能IDを指定)
 		  "extensions": ["ms-python.python"]
 		}
 	}
