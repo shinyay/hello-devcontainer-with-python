@@ -1,0 +1,8 @@
+version: "3"
+services:
+  python3:
+    container_name: "python3_container"
+    image: "3.12.1-slim-bullseye"
+    tty: true
+    volumes:
+      - .:/workspace
