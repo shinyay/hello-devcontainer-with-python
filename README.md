@@ -34,6 +34,9 @@ The project consists of the following
 |----|-----------|
 |`name`|Container name visible on VS Code|
 |`dockerComposeFile`|Specify by relative path the docker-comopse file used to create the container|
+|`service`|Specify the service name of the container you want to open in VScode among the services in docker-compose.yml|
+|||
+|||
 |||
 |||
 
