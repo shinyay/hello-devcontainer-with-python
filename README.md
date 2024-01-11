@@ -58,7 +58,7 @@ services:
 |item|description|
 |----|-----------|
 |`tty`|If true, an interactive shell session can be started in the container|
-|`volumes`||
+|`volumes`|Set up with "`HOST RELATIVE PATH`:`CONTAINER ABSOLUTE PATH`" and bind the host and container volumes|
 |``||
 |``||
 
