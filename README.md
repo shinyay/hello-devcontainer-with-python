@@ -37,8 +37,7 @@ The project consists of the following
 |`service`|Specify the service name of the container you want to open in VScode among the services in docker-compose.yml|
 |`workspaceFolder`|Specify the root folder when the container is opened|
 |`shutdownAction`|Setting what to do with containers when a container screen is closed in VScode<br>`stopCompose` stops the container when the screen is closed|
-|||
-|||
+|`customizations/vscode/extensions`|Specify VScode extensions to be installed with container creation|
 
 ## Demo
 
