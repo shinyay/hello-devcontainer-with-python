@@ -2,6 +2,9 @@
 
 > Development containers (**Dev Containers**) are a VS Code feature that allows developers to package a local development tool stack into the internals of a Docker container while also bringing the VS Code UI experience with them.
 
+![image](https://github.com/shinyay/hello-devcontainer-with-python/assets/3072734/b0eab7bd-6d6f-49de-a989-3e968dd8d6bb)
+
+
 ## Description
 
 ## Demo
