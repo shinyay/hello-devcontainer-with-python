@@ -33,7 +33,7 @@ The project consists of the following
 |item|description|
 |----|-----------|
 |`name`|Container name visible on VS Code|
-|||
+|`dockerComposeFile`|Specify by relative path the docker-comopse file used to create the container|
 |||
 |||
 
