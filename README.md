@@ -7,6 +7,36 @@
 
 ## Description
 
+The project consists of the following
+
+```shell
+.devcontainer/
+├── compose.yaml
+└── devcontainer.json
+```
+
+```json
+{
+	"name": "devcontainr_python3",
+	"dockerComposeFile": "./compose.yaml",
+	"service": "python3",
+	"workspaceFolder": "/workspace",
+	"shutdownAction": "stopCompose",
+	"customizations": {
+		"vscode": {
+		  "extensions": ["ms-python.python"]
+		}
+	}
+}
+```
+
+|item|description|
+|----|-----------|
+|`name`|Container name visible on VS Code|
+|||
+|||
+|||
+
 ## Demo
 
 ## Features
