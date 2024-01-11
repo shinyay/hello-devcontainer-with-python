@@ -7,6 +7,8 @@
 
 ## Description
 
+### Dicrectory
+
 The project consists of the following
 
 ```shell
@@ -14,6 +16,8 @@ The project consists of the following
 ├── compose.yaml
 └── devcontainer.json
 ```
+
+### devcontainer.json
 
 ```json
 {
@@ -38,6 +42,25 @@ The project consists of the following
 |`workspaceFolder`|Specify the root folder when the container is opened|
 |`shutdownAction`|Setting what to do with containers when a container screen is closed in VScode<br>`stopCompose` stops the container when the screen is closed|
 |`customizations/vscode/extensions`|Specify VScode extensions to be installed with container creation|
+
+### Docker Compose file
+
+```yaml
+version: "3"
+services:
+  python3:
+    container_name: "python3_container"
+    image: "python:3.12.1-slim-bullseye"
+    tty: true
+    volumes:
+      - .:/workspace
+```
+|item|description|
+|----|-----------|
+|`tty`|If true, an interactive shell session can be started in the container|
+|`volumes`||
+|``||
+|``||
 
 ## Demo
 
